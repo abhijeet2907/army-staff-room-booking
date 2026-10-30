@@ -70,7 +70,7 @@ img { display: block; max-width: 100%; }
 .hero-bottom a span { margin-left: 8px; font-size: 13px; }
 
 .feature-band { display: grid; grid-template-columns: repeat(2, 1fr); padding: 0 max(32px, calc((100% - 1136px) / 2)); border-bottom: 1px solid #ffffff13; background: #162951; }
-.feature-item { min-height: 94px; display: flex; align-items: center; gap: 14px; padding: 18px 26px; border-right: 1px solid #ffffff16; }
+.feature-item { min-height: 94px; display: flex; align-items: center; justify-content: center; gap: 14px; padding: 18px 26px; border-right: 1px solid #ffffff16; }
 .feature-item:first-child { padding-left: 0; }
 .feature-item:last-child { border: 0; }
 .feature-icon { width: 39px; height: 39px; display: grid; flex: none; place-items: center; border: 1px solid #c8ae4966; border-radius: 50%; color: var(--gold-light); font-size: 20px; }
