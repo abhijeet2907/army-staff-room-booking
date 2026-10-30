@@ -21,7 +21,7 @@
   <body>
     <div class="announcement-bar">
       <div class="announcement-inner">
-        <span class="authority-label"><span aria-hidden="true">★</span> HQ PUP&amp;MP SUB AREA</span>
+        <span></span>
         <div class="announcement-meta">
           <a href="tel:+918354971919"><span aria-hidden="true">☎</span> Booking contact: +91 8354971919</a>
           <span class="announcement-divider" aria-hidden="true"></span>
@@ -41,7 +41,7 @@
           </span>
           <span class="brand-copy">
             <strong>SURYA SAINIK SADAN</strong>
-            <small>ORDNANCE DEPOT FORT, PRAYAGRAJ</small>
+            <small>PRAYAGRAJ</small>
           </span>
         </a>
         <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
@@ -74,24 +74,20 @@
           </div>
           <div class="hero-note"><span class="online-dot"></span> A peaceful and dignified home-away-from-home</div>
         </div>
-        <div class="hero-bottom">
+        <!-- <div class="hero-bottom">
           <div class="hero-location"><span aria-hidden="true">⌖</span> ORDNANCE DEPOT FORT · PRAYAGRAJ, UTTAR PRADESH</div>
           <a href="#about">DISCOVER THE SADAN <span aria-hidden="true">↓</span></a>
-        </div>
+        </div> -->
       </section>
 
       <section class="feature-band" aria-label="At a glance">
         <article class="feature-item">
           <span class="feature-icon" aria-hidden="true">⌖</span>
-          <div><h2>Historic fort proximity</h2><p>Beside Allahabad Fort (Ordnance Depot Fort)</p></div>
+          <div><h2>Historic fort proximity</h2><p>Beside Allahabad Fort</p></div>
         </article>
         <article class="feature-item">
           <span class="feature-icon" aria-hidden="true">⌁</span>
           <div><h2>Near Triveni Sangam</h2><p>Easy access to Prayagraj's sacred confluence</p></div>
-        </article>
-        <article class="feature-item">
-          <span class="feature-icon" aria-hidden="true">✦</span>
-          <div><h2>Military stewardship</h2><p>Under HQ PUP&amp;MP Sub Area</p></div>
         </article>
       </section>
 
@@ -102,7 +98,7 @@
             alt="Guest bedroom at Surya Sainik Sadan with a double bed and seating area"
             loading="lazy"
           />
-          <div class="image-caption"><span class="caption-star">✦</span><span><strong>IN SERVICE OF THOSE WHO SERVE</strong><small>ORDNANCE DEPOT · PRAYAGRAJ</small></span></div>
+          <div class="image-caption"><span class="caption-star">✦</span><span><strong>IN SERVICE OF THOSE WHO SERVE</strong></span></div>
           <span class="image-number">01 <i>/ 04</i></span>
         </div>
         <div class="about-copy">
@@ -112,7 +108,7 @@
             Surya Sainik Sadan serves as an ideal sanctuary, ensuring that those who have safeguarded our borders find comfort and dignity when visiting Prayagraj.
           </p>
           <p>
-            Whether you are here for pilgrimage, a family event, a medical halt, routine transit, or the grand Kumbh Mela, our facility offers a welcoming place to rest under the care of Ordnance Depot Prayagraj.
+            Whether you are here for pilgrimage, a family event, a medical halt, routine transit, or the grand Kumbh Mela, our facility offers a welcoming place to rest.
           </p>
           <div class="eligibility-card">
             <span class="eligibility-icon" aria-hidden="true">✦</span>
@@ -208,9 +204,20 @@
         </div>
         <div class="gallery-heading">
           <div><div class="section-kicker"><span></span> PHOTOS OF THE SADAN</div><h3>Rooms &amp; facilities</h3></div>
-          <p>Take a look at the guest rooms, dormitory, dining area, washroom, and grounds.</p>
+          <div class="gallery-heading-actions">
+            <p>Take a look at the guest rooms, dormitory, dining area, washroom, and grounds.</p>
+            <div class="gallery-controls" aria-label="Gallery controls">
+              <button class="gallery-arrow" id="gallery-previous" type="button" aria-label="Previous photos" disabled>
+                <span aria-hidden="true">←</span>
+              </button>
+              <span class="gallery-position" id="gallery-position" aria-live="polite">01 / 07</span>
+              <button class="gallery-arrow" id="gallery-next" type="button" aria-label="Next photos">
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="photo-gallery" aria-label="Photos of rooms and facilities at Surya Sainik Sadan">
+        <div class="photo-gallery" id="photo-gallery" role="region" aria-label="Room and facilities photo slider" tabindex="0">
           <figure class="gallery-card">
             <img src="images/Rooms%20%26%20facilites/Guest%20room.jpeg" alt="Guest room with double bed and sitting chairs" loading="lazy" />
             <figcaption class="gallery-caption">Guest room</figcaption>
@@ -250,9 +257,7 @@
         <div class="command-copy">
           <div class="section-kicker"><span></span> CHAIN OF COMMAND &amp; GUIDANCE</div>
           <h2>Maintained with <em>care and purpose</em></h2>
-          <p>Under the esteemed aegis of HQ PUP&amp;MP Sub Area, Surya Sainik Sadan is operated by the dedicated personnel of Ordnance Depot Prayagraj.</p>
           <p>The facility brings together military discipline and considered hospitality, providing a secure, dignified stay for eligible personnel and their families.</p>
-          <div class="command-signoff"><span class="signoff-star">✦</span><span><strong>ORDNANCE DEPOT PRAYAGRAJ</strong><small>HQ PUP&amp;MP SUB AREA</small></span></div>
         </div>
       </section>
 
@@ -364,14 +369,14 @@
         <div class="footer-about">
           <a class="brand footer-brand" href="#home">
             <span class="brand-emblem" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M24 5 43 12v13c0 10.1-7.5 16.4-19 19C12.5 41.4 5 35.1 5 25V12L24 5Z" fill="currentColor" /><path d="m24 12 2.4 6.1 6.6.4-5.1 4.1 1.8 6.4-5.7-3.6-5.7 3.6 1.8-6.4-5.1-4.1 6.6-.4L24 12Zm-7.8 18.5h15.6v2H16.2v-2Z" fill="#26331c" /></svg></span>
-            <span class="brand-copy"><strong>SURYA SAINIK SADAN</strong><small>ORDNANCE DEPOT FORT, PRAYAGRAJ</small></span>
+            <span class="brand-copy"><strong>SURYA SAINIK SADAN</strong><small>PRAYAGRAJ</small></span>
           </a>
           <p>A peaceful and dignified retreat for serving defence personnel, veterans, and their families in Prayagraj.</p>
         </div>
         <div class="footer-links"><strong>EXPLORE</strong><a href="#about">About the Sadan</a><a href="#landmarks">Local landmarks</a><a href="#facilities">Facilities</a><a href="#booking-guide">Booking guide</a><a href="#booking">Booking inquiry</a></div>
-        <div class="footer-address"><strong>LOCATION &amp; ADDRESS</strong><p>Surya Sainik Sadan, Near Historic Allahabad Fort (Ordnance Depot Fort), Banks of Yamuna River, Prayagraj, Uttar Pradesh – 211003.</p><a href="mailto:suryasainiksadan123@gmail.com">suryasainiksadan123@gmail.com</a><a href="tel:+918354971919"><span aria-hidden="true">☎</span> +91 8354971919</a></div>
+        <div class="footer-address"><strong>LOCATION &amp; ADDRESS</strong><p>Surya Sainik Sadan, Near Historic Allahabad Fort, Banks of Yamuna River, Prayagraj, Uttar Pradesh – 211003.</p><a href="mailto:suryasainiksadan123@gmail.com">suryasainiksadan123@gmail.com</a><a href="tel:+918354971919"><span aria-hidden="true">☎</span> +91 8354971919</a></div>
       </div>
-      <div class="footer-bottom"><span>© <span id="current-year"></span> Surya Sainik Sadan, Ordnance Depot Prayagraj. All Rights Reserved.</span><span>Operated under the aegis of <strong>HQ PUP&amp;MP Sub Area</strong></span></div>
+      <div class="footer-bottom"><span>© <span id="current-year"></span> Surya Sainik Sadan. All Rights Reserved.</span><span>Operated under the aegis of <strong>HQ PUP&amp;MP Sub Area</strong></span></div>
     </footer>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
